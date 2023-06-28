@@ -1,147 +1,202 @@
-.task1 {
-}
-
-.task2 {
+.task1 .item .description {
   display: flex;
 }
 
-.task3 {
+.task2 .item .description  {
   display: flex;
+  flex-direction: row;
 }
 
-.task4 {
+.task3 .item .description  {
   display: flex;
+  flex-direction: row-reverse;
 }
 
-.task5 {
+.task4 .item .description  {
   display: flex;
+  flex-direction: column;
 }
 
-.task6 {
+.task5 .item .description  {
   display: flex;
+  flex-direction: column-reverse;
 }
 
-.task7 {
+.task6 .item .description  {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.task8 {
+.task7 .item .description  {
   display: flex;
+  flex-wrap: nowrap;
 }
 
-.task9 {
+.task8 .item .description  {
   display: flex;
+  flex-wrap: wrap-reverse;
 }
 
-.task10 {
+.task9 .item .description  {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.task11 {
+.task10 .item .description  {
   display: flex;
+  justify-content: flex-start;
 }
 
-.task12 {
+.task11 .item .description  {
   display: flex;
+  justify-content: flex-end;
 }
 
-.task13 {
+.task12 .item .description  {
   display: flex;
+  justify-content: center;
 }
 
-.task14 {
+.task13 .item .description  {
   display: flex;
+  justify-content: space-between;
 }
 
-.task15 {
+.task14 .item .description  {
   display: flex;
+  justify-content: space-around;
 }
 
-.task16 {
+.task15 .item .description  {
   display: flex;
+  justify-content: space-evenly;
 }
 
-.task17 {
+.task16 .item .description  {
   display: flex;
+  justify-content: stretch;
 }
 
-.task18 {
+.task17 .item .description  {
   display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
-.task19 {
+.task18 .item .description  {
   display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
 }
 
-.task20 {
+.task19 .item .description  {
   display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
-.task21 {
+.task20 .item .description  {
   display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
 }
 
-.task22 {
+.task21 .item .description  {
   display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
-.task23 {
+.task22 .item .description  {
   display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
 }
 
-.task24 {
+.task23 .item .description  {
   display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
 }
 
-.task25 {
+.task24 .item .description  {
   display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
-.task26 {
+.task25 .item .description  {
   display: flex;
+  align-items: flex-start;
 }
 
-.task27 {
+.task26 .item .description  {
   display: flex;
+  align-items: flex-end;
 }
 
-.task28 {
+.task27 .item .description  {
   display: flex;
+  align-items: center;
 }
 
-.task29 {
+.task28 .item .description  {
   display: flex;
+  justify-content: stretch;
 }
 
-.task30 .item1 {
-}
-
-.task31 .item2 {
-}
-
-.task32 .item3 {
-}
-
-.task33 .item4 {
-}
-
-.task34 .item1 {
-}
-
-.task35 .item2 {
-}
-
-.task36 .item3 {
-}
-
-.task37 .item4 {
-}
-
-.task38 {
+.task29 .item .description  {
   display: flex;
+  align-items: baseline;
 }
 
-.task39 .item1 {
+.task30 .item1 .description  {
+  align-items: flex-start;
 }
-.task39 .item3 {
+
+.task31 .item2 .description {
+  align-items: flex-end;
+}
+
+.task32 .item3 .description {
+  align-items: center;
+}
+
+.task33 .item4 .description {
+  align-items: stretch;
+}
+
+.task34 .item1 .description {
+    flex-basis: 50%;
+}
+
+.task35 .item2 .description {
+  flex-grow: 1 2 3 100px;
+}
+
+.task36 .item3 .description {
+  flex-shrink: 0.5;
+}
+
+.task37 .item4 .description {
+  flex-basis: 200px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.task38 .description .item {
+  display: flex;
+  row-gap: 20px;
+  column-gap: 30px;
+}
+
+.task39 .item .description {
+  flex-direction: row;
+  row-gap: 20px;
+  column-gap: 30px;
+}
+.task39 .item3 .description {
+  justify-content: flex-start;
 }
